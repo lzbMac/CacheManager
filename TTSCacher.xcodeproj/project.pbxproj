@@ -11,7 +11,6 @@
 		8F54F7C51EE7E7B5009754FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7C41EE7E7B5009754FA /* AppDelegate.m */; };
 		8F54F7C81EE7E7B5009754FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7C71EE7E7B5009754FA /* ViewController.m */; };
 		8F54F7CB1EE7E7B5009754FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7C91EE7E7B5009754FA /* Main.storyboard */; };
-		8F54F7CD1EE7E7B5009754FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */; };
 		8F54F7D01EE7E7B5009754FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7CE1EE7E7B5009754FA /* LaunchScreen.storyboard */; };
 		8F54F7E01EE7E872009754FA /* NSData-AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7DD1EE7E872009754FA /* NSData-AES.m */; };
 		8F54F7E11EE7E872009754FA /* tcc_rijndael.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7DE1EE7E872009754FA /* tcc_rijndael.c */; };
@@ -33,7 +32,6 @@
 		8F54F7C61EE7E7B5009754FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8F54F7C71EE7E7B5009754FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F54F7CA1EE7E7B5009754FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F54F7CF1EE7E7B5009754FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F54F7D11EE7E7B5009754FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F54F7DC1EE7E872009754FA /* NSData-AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-AES.h"; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				8F54F7C61EE7E7B5009754FA /* ViewController.h */,
 				8F54F7C71EE7E7B5009754FA /* ViewController.m */,
 				8F54F7C91EE7E7B5009754FA /* Main.storyboard */,
-				8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */,
 				8F54F7CE1EE7E7B5009754FA /* LaunchScreen.storyboard */,
 				8F54F7D11EE7E7B5009754FA /* Info.plist */,
 				8F54F7C01EE7E7B5009754FA /* Supporting Files */,
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F54F7D01EE7E7B5009754FA /* LaunchScreen.storyboard in Resources */,
-				8F54F7CD1EE7E7B5009754FA /* Assets.xcassets in Resources */,
 				8F54F7CB1EE7E7B5009754FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
