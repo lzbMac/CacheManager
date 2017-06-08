@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F54F7C21EE7E7B5009754FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7C11EE7E7B5009754FA /* main.m */; };
+		8F54F7C51EE7E7B5009754FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7C41EE7E7B5009754FA /* AppDelegate.m */; };
+		8F54F7C81EE7E7B5009754FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7C71EE7E7B5009754FA /* ViewController.m */; };
+		8F54F7CB1EE7E7B5009754FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7C91EE7E7B5009754FA /* Main.storyboard */; };
+		8F54F7CD1EE7E7B5009754FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */; };
+		8F54F7D01EE7E7B5009754FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54F7CE1EE7E7B5009754FA /* LaunchScreen.storyboard */; };
+		8F54F7E01EE7E872009754FA /* NSData-AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7DD1EE7E872009754FA /* NSData-AES.m */; };
+		8F54F7E11EE7E872009754FA /* tcc_rijndael.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7DE1EE7E872009754FA /* tcc_rijndael.c */; };
+		8F54F7E41EE7E8A1009754FA /* NSData+CommonEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7E31EE7E8A1009754FA /* NSData+CommonEncrypt.m */; };
+		8F54F7E81EE7EACC009754FA /* NSString+CommonEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7E71EE7EACC009754FA /* NSString+CommonEncrypt.m */; };
+		8F54F7F01EE7F149009754FA /* NSObject+JSONEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7EF1EE7F149009754FA /* NSObject+JSONEntity.m */; };
+		8F54F7F31EE7F37F009754FA /* NSObject+TTSJSONEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7F21EE7F37F009754FA /* NSObject+TTSJSONEntity.m */; };
+		8F54F7F61EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7F51EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.m */; };
+		8F54F7F91EE7F64C009754FA /* TTSCacheStoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7F81EE7F64C009754FA /* TTSCacheStoreObject.m */; };
+		8F54F7FF1EE7FAC9009754FA /* TTSCacheStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F7FE1EE7FAC9009754FA /* TTSCacheStorage.m */; };
+		8F54F8021EE7FC3E009754FA /* TTSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F54F8011EE7FC3E009754FA /* TTSCacheManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F54F7BD1EE7E7B5009754FA /* TTSCacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSCacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F54F7C11EE7E7B5009754FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F54F7C31EE7E7B5009754FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F54F7C41EE7E7B5009754FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F54F7C61EE7E7B5009754FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F54F7C71EE7E7B5009754FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F54F7CA1EE7E7B5009754FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F54F7CF1EE7E7B5009754FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F54F7D11EE7E7B5009754FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F54F7DC1EE7E872009754FA /* NSData-AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-AES.h"; sourceTree = "<group>"; };
+		8F54F7DD1EE7E872009754FA /* NSData-AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-AES.m"; sourceTree = "<group>"; };
+		8F54F7DE1EE7E872009754FA /* tcc_rijndael.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcc_rijndael.c; sourceTree = "<group>"; };
+		8F54F7DF1EE7E872009754FA /* tcc_rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcc_rijndael.h; sourceTree = "<group>"; };
+		8F54F7E21EE7E8A1009754FA /* NSData+CommonEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonEncrypt.h"; sourceTree = "<group>"; };
+		8F54F7E31EE7E8A1009754FA /* NSData+CommonEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonEncrypt.m"; sourceTree = "<group>"; };
+		8F54F7E51EE7E961009754FA /* TTSEncryptDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEncryptDefine.h; sourceTree = "<group>"; };
+		8F54F7E61EE7EACC009754FA /* NSString+CommonEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonEncrypt.h"; sourceTree = "<group>"; };
+		8F54F7E71EE7EACC009754FA /* NSString+CommonEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CommonEncrypt.m"; sourceTree = "<group>"; };
+		8F54F7EC1EE7ED88009754FA /* TTSJSONEntityElementProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSJSONEntityElementProtocol.h; sourceTree = "<group>"; };
+		8F54F7ED1EE7EDC6009754FA /* TTSJSONEntityPropertyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSJSONEntityPropertyProtocol.h; sourceTree = "<group>"; };
+		8F54F7EE1EE7F149009754FA /* NSObject+JSONEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONEntity.h"; sourceTree = "<group>"; };
+		8F54F7EF1EE7F149009754FA /* NSObject+JSONEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONEntity.m"; sourceTree = "<group>"; };
+		8F54F7F11EE7F37F009754FA /* NSObject+TTSJSONEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TTSJSONEntity.h"; sourceTree = "<group>"; };
+		8F54F7F21EE7F37F009754FA /* NSObject+TTSJSONEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TTSJSONEntity.m"; sourceTree = "<group>"; };
+		8F54F7F41EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+PublicJSONString.h"; sourceTree = "<group>"; };
+		8F54F7F51EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+PublicJSONString.m"; sourceTree = "<group>"; };
+		8F54F7F71EE7F64C009754FA /* TTSCacheStoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSCacheStoreObject.h; sourceTree = "<group>"; };
+		8F54F7F81EE7F64C009754FA /* TTSCacheStoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSCacheStoreObject.m; sourceTree = "<group>"; };
+		8F54F7FC1EE7FA25009754FA /* TTSEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEncrypt.h; sourceTree = "<group>"; };
+		8F54F7FD1EE7FAC9009754FA /* TTSCacheStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSCacheStorage.h; sourceTree = "<group>"; };
+		8F54F7FE1EE7FAC9009754FA /* TTSCacheStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSCacheStorage.m; sourceTree = "<group>"; };
+		8F54F8001EE7FC3E009754FA /* TTSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSCacheManager.h; sourceTree = "<group>"; };
+		8F54F8011EE7FC3E009754FA /* TTSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSCacheManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F54F7BA1EE7E7B5009754FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F54F7B41EE7E7B5009754FA = {
+			isa = PBXGroup;
+			children = (
+				8F54F7D71EE7E82D009754FA /* TTSCache */,
+				8F54F7BF1EE7E7B5009754FA /* TTSCacher */,
+				8F54F7BE1EE7E7B5009754FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F54F7BE1EE7E7B5009754FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7BD1EE7E7B5009754FA /* TTSCacher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F54F7BF1EE7E7B5009754FA /* TTSCacher */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7C31EE7E7B5009754FA /* AppDelegate.h */,
+				8F54F7C41EE7E7B5009754FA /* AppDelegate.m */,
+				8F54F7C61EE7E7B5009754FA /* ViewController.h */,
+				8F54F7C71EE7E7B5009754FA /* ViewController.m */,
+				8F54F7C91EE7E7B5009754FA /* Main.storyboard */,
+				8F54F7CC1EE7E7B5009754FA /* Assets.xcassets */,
+				8F54F7CE1EE7E7B5009754FA /* LaunchScreen.storyboard */,
+				8F54F7D11EE7E7B5009754FA /* Info.plist */,
+				8F54F7C01EE7E7B5009754FA /* Supporting Files */,
+			);
+			path = TTSCacher;
+			sourceTree = "<group>";
+		};
+		8F54F7C01EE7E7B5009754FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7C11EE7E7B5009754FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F54F7D71EE7E82D009754FA /* TTSCache */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7D81EE7E82D009754FA /* TTSEncrypt */,
+				8F54F7D91EE7E82D009754FA /* TTSJSONEntity */,
+				8F54F7DA1EE7E82D009754FA /* TTSStorage */,
+			);
+			path = TTSCache;
+			sourceTree = "<group>";
+		};
+		8F54F7D81EE7E82D009754FA /* TTSEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7DB1EE7E872009754FA /* Cryptograph */,
+				8F54F7E21EE7E8A1009754FA /* NSData+CommonEncrypt.h */,
+				8F54F7E31EE7E8A1009754FA /* NSData+CommonEncrypt.m */,
+				8F54F7E61EE7EACC009754FA /* NSString+CommonEncrypt.h */,
+				8F54F7E71EE7EACC009754FA /* NSString+CommonEncrypt.m */,
+				8F54F7E51EE7E961009754FA /* TTSEncryptDefine.h */,
+			);
+			path = TTSEncrypt;
+			sourceTree = "<group>";
+		};
+		8F54F7D91EE7E82D009754FA /* TTSJSONEntity */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7EC1EE7ED88009754FA /* TTSJSONEntityElementProtocol.h */,
+				8F54F7ED1EE7EDC6009754FA /* TTSJSONEntityPropertyProtocol.h */,
+				8F54F7EE1EE7F149009754FA /* NSObject+JSONEntity.h */,
+				8F54F7EF1EE7F149009754FA /* NSObject+JSONEntity.m */,
+				8F54F7F11EE7F37F009754FA /* NSObject+TTSJSONEntity.h */,
+				8F54F7F21EE7F37F009754FA /* NSObject+TTSJSONEntity.m */,
+				8F54F7F41EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.h */,
+				8F54F7F51EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.m */,
+				8F54F7FC1EE7FA25009754FA /* TTSEncrypt.h */,
+			);
+			path = TTSJSONEntity;
+			sourceTree = "<group>";
+		};
+		8F54F7DA1EE7E82D009754FA /* TTSStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7FD1EE7FAC9009754FA /* TTSCacheStorage.h */,
+				8F54F7FE1EE7FAC9009754FA /* TTSCacheStorage.m */,
+				8F54F7F71EE7F64C009754FA /* TTSCacheStoreObject.h */,
+				8F54F7F81EE7F64C009754FA /* TTSCacheStoreObject.m */,
+				8F54F8001EE7FC3E009754FA /* TTSCacheManager.h */,
+				8F54F8011EE7FC3E009754FA /* TTSCacheManager.m */,
+			);
+			path = TTSStorage;
+			sourceTree = "<group>";
+		};
+		8F54F7DB1EE7E872009754FA /* Cryptograph */ = {
+			isa = PBXGroup;
+			children = (
+				8F54F7DC1EE7E872009754FA /* NSData-AES.h */,
+				8F54F7DD1EE7E872009754FA /* NSData-AES.m */,
+				8F54F7DE1EE7E872009754FA /* tcc_rijndael.c */,
+				8F54F7DF1EE7E872009754FA /* tcc_rijndael.h */,
+			);
+			path = Cryptograph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F54F7BC1EE7E7B5009754FA /* TTSCacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F54F7D41EE7E7B5009754FA /* Build configuration list for PBXNativeTarget "TTSCacher" */;
+			buildPhases = (
+				8F54F7B91EE7E7B5009754FA /* Sources */,
+				8F54F7BA1EE7E7B5009754FA /* Frameworks */,
+				8F54F7BB1EE7E7B5009754FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSCacher;
+			productName = TTSCacher;
+			productReference = 8F54F7BD1EE7E7B5009754FA /* TTSCacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F54F7B51EE7E7B5009754FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李正兵";
+				TargetAttributes = {
+					8F54F7BC1EE7E7B5009754FA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2G4AT7N2J9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F54F7B81EE7E7B5009754FA /* Build configuration list for PBXProject "TTSCacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F54F7B41EE7E7B5009754FA;
+			productRefGroup = 8F54F7BE1EE7E7B5009754FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F54F7BC1EE7E7B5009754FA /* TTSCacher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F54F7BB1EE7E7B5009754FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F54F7D01EE7E7B5009754FA /* LaunchScreen.storyboard in Resources */,
+				8F54F7CD1EE7E7B5009754FA /* Assets.xcassets in Resources */,
+				8F54F7CB1EE7E7B5009754FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F54F7B91EE7E7B5009754FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F54F7FF1EE7FAC9009754FA /* TTSCacheStorage.m in Sources */,
+				8F54F7E01EE7E872009754FA /* NSData-AES.m in Sources */,
+				8F54F7E11EE7E872009754FA /* tcc_rijndael.c in Sources */,
+				8F54F7F01EE7F149009754FA /* NSObject+JSONEntity.m in Sources */,
+				8F54F7F31EE7F37F009754FA /* NSObject+TTSJSONEntity.m in Sources */,
+				8F54F7F91EE7F64C009754FA /* TTSCacheStoreObject.m in Sources */,
+				8F54F7C81EE7E7B5009754FA /* ViewController.m in Sources */,
+				8F54F7E41EE7E8A1009754FA /* NSData+CommonEncrypt.m in Sources */,
+				8F54F7C51EE7E7B5009754FA /* AppDelegate.m in Sources */,
+				8F54F7F61EE7F56D009754FA /* NSJSONSerialization+PublicJSONString.m in Sources */,
+				8F54F7E81EE7EACC009754FA /* NSString+CommonEncrypt.m in Sources */,
+				8F54F7C21EE7E7B5009754FA /* main.m in Sources */,
+				8F54F8021EE7FC3E009754FA /* TTSCacheManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F54F7C91EE7E7B5009754FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F54F7CA1EE7E7B5009754FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F54F7CE1EE7E7B5009754FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F54F7CF1EE7E7B5009754FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F54F7D21EE7E7B5009754FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F54F7D31EE7E7B5009754FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F54F7D51EE7E7B5009754FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2G4AT7N2J9;
+				INFOPLIST_FILE = TTSCacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.TTSCacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F54F7D61EE7E7B5009754FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2G4AT7N2J9;
+				INFOPLIST_FILE = TTSCacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.TTSCacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F54F7B81EE7E7B5009754FA /* Build configuration list for PBXProject "TTSCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F54F7D21EE7E7B5009754FA /* Debug */,
+				8F54F7D31EE7E7B5009754FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F54F7D41EE7E7B5009754FA /* Build configuration list for PBXNativeTarget "TTSCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F54F7D51EE7E7B5009754FA /* Debug */,
+				8F54F7D61EE7E7B5009754FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F54F7B51EE7E7B5009754FA /* Project object */;
+}
